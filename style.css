@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.form-section {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #2e3137;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-section .form-heading {
+  color: #878a97;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0;
+}
+.form-section .form-heading span {
+  color: #2ba3c7;
+}
+.form-section .form-container {
+  width: 35rem;
+  background: #22262b;
+}
+.form-section .form-sub-heading {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+  text-align: center;
+  background: rgb(69, 73, 85);
+  padding: 1rem;
+}
+.form-section .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding: 2rem;
+  border-bottom: 1px dotted;
+  border-color: rgb(69, 73, 85);
+}
+.form-section .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
+}
+.form-section .label-same {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+}
+.form-section .input-same {
+  width: 100%;
+  border: 0;
+  background: rgb(69, 73, 85);
+  outline: 0;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+.form-section .check-terms-label {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+}
+.form-section .form-btn {
+  background: #26a2d2;
+  border: 0;
+  outline: 0;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.form-section .signin-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.form-section .footer-form-small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  text-align: center;
+}
+.form-section .signin-btn {
+  background: rgb(69, 73, 85);
+  border: 0;
+  outline: 0;
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.form-section .form-group.error .input-same {
+  border: 1px solid red;
+}
+.form-section .form-group.success .input-same {
+  border: 1px solid rgb(0, 255, 55);
+}/*# sourceMappingURL=style.css.map */

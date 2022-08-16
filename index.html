@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="form-section">
+      <h1 class="form-heading">Xtra<span>Form</span></h1>
+      <div class="form-container">
+        <h2 class="form-sub-heading">Sign Up</h2>
+        <form class="form" id="form" novalidate>
+          <div class="form-group">
+            <label for="username" class="label-same label-username"
+              >Username</label
+            >
+            <input
+              type="text"
+              class="input-same input-username"
+              id="username"
+              placeholder="Username"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="mail" class="label-same label-mail">Email</label>
+            <input
+              type="mail"
+              class="input-same input-mail"
+              id="mail"
+              placeholder="Email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="label-same label-password"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="input-same input-password"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="repassword" class="label-same label-repassword"
+              >Retype Password</label
+            >
+            <input
+              type="password"
+              class="input-same input-repassword"
+              id="repassword"
+              placeholder="Retype Password"
+            />
+          </div>
+
+          <div class="form-grp-terms">
+            <input type="checkbox" class="check-terms" id="terms" value="checked"/>
+            <label for="terms" class="check-terms-label"
+              >Accept the terms and polovies</label
+            >
+          </div>
+
+          <div class="form-grp-btn">
+            <button class="form-btn" type="submit">SIGN UP</button>
+          </div>
+        </form>
+        <div class="signin-container">
+          <p class="footer-form-small">Already have an account?</p>
+          <button class="signin-btn" type="submit">SIGN IN</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
